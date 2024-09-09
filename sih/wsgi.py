@@ -14,3 +14,9 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "sih.settings")
 
 application = get_wsgi_application()
+
+# api/vercel_app.py
+from sih.wsgi import application
+
+app = application
+
