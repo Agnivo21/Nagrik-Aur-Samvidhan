@@ -13,8 +13,5 @@ from django.core.asgi import get_asgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "sih.settings")
 
-# api/vercel_app.py
-from sih.asgi import application
 
-app = application
 
